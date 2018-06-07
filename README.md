@@ -1,5 +1,5 @@
 # Artificial Neural Network - Machine Learning
-
+---
 This repository houses two different Artificial Neural Network (ANN) experiments, where a complex Backpropagation network is used to classify entries in a data set, mased on a small training sample.
 
 ## Handwriting Analysis
@@ -10,6 +10,6 @@ This backpropagation network is hand coded in Python as a set of linked Backprop
 
 This backpropagation network takes use of the efficient built-in Backpropagation Nodes in the Matlab modeling software. The input data set is the Wine Quality Data from the [Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/wine+quality). The data set consists of 4898 entries of red and white Vinho Verde wine samples, based on 12 attributes. Each sample also has a final quality score, that is dependent on those attributes. The goal of the experiment is to train the ANN to be able to correctly set a quality score for a wine sample, given the 12 attributes. To accomplish this, the training data was first preprocessed, to reduce training time and improve accuracy. The ANN was then tested on the remaining data to determine how often it was able to guess the wine quality correctly. For the full results of the experiment and applications of the research, see the technical report as `TechnicalReport.pdf`.
 
-#### Citation
-
+---
+##### Citation
 Thank you to the authors Cortez et al., 2009 for the Vino Verde data set and Alpaydin et al., 1998 for the Handwriting Data set. Their efforts in creating the data was invaluable in this research.
